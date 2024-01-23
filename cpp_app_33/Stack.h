@@ -26,7 +26,7 @@ public:
             delete temp;
         }
         else {
-            std::cout << "Stack underflow! Cannot remove from an empty stack.\n";
+            std::cout << "Stack underflow! Cannot remove from an empty stack\n";
         }
     }
     void display() const override {
