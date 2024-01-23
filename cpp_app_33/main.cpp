@@ -1,12 +1,14 @@
 #include "Equation.h"
 
 int main() {
-    Equation* linearEq = new LinearEquation(2, -3);
+    Equation* linearEq = new LinearEquation();
+    linearEq->inputEquation();
     linearEq->displayEquation();
     linearEq->calculateRoots();
     delete linearEq;
 
-    Equation* quadraticEq = new QuadraticEquation(1, -3, 2);
+    Equation* quadraticEq = new QuadraticEquation();
+    quadraticEq->inputEquation();
     quadraticEq->displayEquation();
     quadraticEq->calculateRoots();
     delete quadraticEq;
