@@ -10,4 +10,10 @@
       <Filter>Main</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Node.h" />
+  </ItemGroup>
 </Project>
