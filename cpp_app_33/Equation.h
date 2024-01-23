@@ -46,7 +46,7 @@ private:
 
 public:
     void inputEquation() override {
-        std::cout << "Enter coefficients for the quadratic equation (ax^2 + bx + c = 0):" << std::endl;
+        std::cout << "\nEnter coefficients for the quadratic equation (ax^2 + bx + c = 0):" << std::endl;
         std::cout << "Enter a: ";
         std::cin >> a;
         std::cout << "Enter b: ";
